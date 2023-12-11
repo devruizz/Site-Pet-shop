@@ -1,0 +1,135 @@
+
+
+/* Desktop (col-lg) 992px+ */
+@media (min-width: 992px) and (max-width: 1190px) {
+    .bg-banho{
+        width: 400px !important;
+        height: 400px !important;
+        bottom: -70px !important;
+        left: 25px !important;
+        right: 0px;
+    } 
+    
+    
+
+}
+
+/* Desktop e Tablets (col-md) 768px a 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .bg-banho{
+        width: 300px !important;
+        height: 300px !important;
+        bottom: -70px !important;
+        left: 25px !important;
+        right: 0px;
+    } 
+    .gato{
+        padding-top: 50px;
+    }
+    
+    
+
+}
+/* Tablets e Celulares (col) 0px a 767px */
+@media (max-width: 767px) {
+    .button-50 {
+        padding: 12px 50px;
+      }
+      .clinica{
+        display: flex;
+        align-items: center;
+        gap: 64px;
+        padding:15px 30px;
+        
+        flex-wrap: wrap;
+        
+      }
+     
+   
+
+  
+}  
+/* Tablets (col-sm) 576px a 767px */
+@media (min-width: 545px) and (max-width: 767px) {
+    .bg-banho{
+        width: 450px !important;
+        height: 450px !important;
+        bottom: -60px !important;
+        left: 20px !important;
+        right: 0px;
+    } 
+     
+}
+
+/* iphone-se (col-sm)*/
+@media (min-width: 375px) and (max-width: 767px){
+    .bg-inicio{
+        clip-path: circle(48.2% at 50% 50%);
+        background-color: var(--color-secondary);
+        width: 330px !important;
+        height: 330px !important;
+        left: 80px !important;
+        top: -40px;
+       
+      
+    
+    
+    }
+    .img-inicio{
+        width: 320px;
+    }
+    .clinica li{
+        font-size: 17px;
+         
+       }
+       .bg-banho{
+        width: 330px;
+        height: 330px;
+        bottom: -50px;
+        left:20px;
+        right: 0px;
+    } 
+     
+    
+
+}
+/* sansung S8+*/
+@media (min-width: 260px) and (max-width: 374px){
+    .bg-inicio{
+        clip-path: circle(48.2% at 50% 50%);
+        background-color: var(--color-secondary);
+        width: 330px;
+        height: 330px;
+        left: 0;
+        top: -40px;
+       
+      
+    
+    
+    }
+    .img-inicio{
+        width: 320px;
+
+    }
+    .clinica li{
+       font-size: 13px;
+        
+      }
+      .bg-banho{
+        width: 280px;
+        height: 280px;
+        bottom: -50px;
+        left:20px;
+        right: 0px;
+    } 
+     
+    
+    
+    
+
+}
+
+ 
+
+   
+      
